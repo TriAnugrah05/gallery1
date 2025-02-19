@@ -1,0 +1,21 @@
+html,
+body {
+  background-color: rgb(46, 48, 49);
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
+
+.text-body {
+  text-decoration: none;
+  color: white;
+}
+
+.badge {
+  cursor: pointer;
+}
