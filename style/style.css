@@ -1,6 +1,10 @@
 html,
 body {
-  background-color: rgb(46, 48, 49);
+  background-color: hwb(200 18% 81%);
+}
+
+#home {
+  background-color: hwb(200 18% 81%);
 }
 
 .gallery-img {
