@@ -1,8 +1,3 @@
-html,
-body {
-  background-color: hwb(200 18% 81%);
-}
-
 .gallery-img {
   width: 100%;
 }
@@ -18,4 +13,12 @@ body {
 
 .badge {
   cursor: pointer;
+}
+
+.galery .card {
+  background-color: rgba(20, 20, 20, 0.904);
+}
+
+.card-text {
+  color: white;
 }
