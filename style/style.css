@@ -1,4 +1,27 @@
-.gallery-img {
+* {
+  font-family: sans-serif;
+}
+
+.blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(/image/cr3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(5px);
+}
+
+.content {
+  color: white;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.b .gallery-img {
   width: 100%;
 }
 
@@ -19,6 +42,6 @@
   background-color: rgba(20, 20, 20, 0.904);
 }
 
-.card-text {
+.galery .card-text {
   color: white;
 }
