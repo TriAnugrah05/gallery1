@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  text-decoration: none;
 }
 
 .b .gallery-img {
@@ -25,4 +26,16 @@
 
 .galery .card-text {
   color: white;
+}
+
+#deskripsi {
+  background-color: rgba(0, 0, 0, 0.596);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 7%;
+}
+
+.desk-capt {
+  color: white;
+  text-align: center;
 }
