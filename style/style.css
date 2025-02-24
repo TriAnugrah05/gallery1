@@ -5,6 +5,32 @@
   text-decoration: none;
 }
 
+.conten {
+  text-align: center;
+}
+
+.conten h1 {
+  font-size: 68px;
+  margin-bottom: 20px;
+}
+
+.conten p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.conten .btn {
+  font-size: 18px;
+  padding: 10px 5px;
+  background-color: rgb(11, 30, 139);
+  color: white;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: rgb(240, 236, 236);
+}
+
 .b .gallery-img {
   width: 100%;
 }
@@ -21,15 +47,10 @@
   border: none;
 }
 
-#gallery .row > * {
-  padding: 0;
+.galery {
+  background-color: black;
+  padding-top: 3%;
 }
-
-.text-body {
-  text-decoration: none;
-  color: white;
-}
-
 .badge {
   cursor: pointer;
 }
@@ -42,11 +63,11 @@
   color: white;
 }
 
-#deskripsi {
-  background-color: rgba(0, 0, 0, 0.596);
+.deskripsi {
+  background-color: hsla(0, 0%, 26%, 0.184);
   padding-top: 5%;
   padding-bottom: 5%;
-  margin-top: 7%;
+  margin-top: 10%;
 }
 
 .desk-capt {
